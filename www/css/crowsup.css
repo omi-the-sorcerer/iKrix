@@ -1,0 +1,77 @@
+
+#crowsup td
+{
+	text-align:left;
+	vertical-align: top;
+}
+
+#crowsup                     { border: 1px solid #eee; margin: 0 0 15px 0; width: calc(100% - 20px);}
+#rec                      { height: 300px; overflow: auto; border: 1px solid #666; padding: 10px; background: white; }
+
+#crowsup .name {font-weight: bold; padding: 0; color:black;}
+#rec span.time {font-size: 9px;}
+#rec p                    { padding: 8px 0;  }
+
+#chats span  {display:inline;}
+
+/* ARROWS */
+ .arrowText {
+ position:relative;
+ margin: 20px;
+ width: 300px;
+ background: #C7E0E5;
+ border:solid 1px #0cceff;
+ padding:10px;
+ border-radius: 4px;
+ -webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+ }
+ .arrowText:before, .arrowText:after {
+ content: " ";
+ position: absolute;
+ display: block;
+ width: 0;
+ height: 0;
+ }
+
+/* RIGHT ARROW */
+.arrowRight
+{
+	margin: 0 10px 8px auto;
+}
+
+ .arrowRight:before, .arrowRight:after {
+ border-bottom: 25px solid transparent;
+ border-top: 25px solid transparent;
+ top:-1px;
+ }
+ .arrowRight:after {
+ border-left: 16px solid #C7E0E5;
+ right: -15px;
+ z-index: 2;
+ }
+
+.arrowRight:before {
+ border-left: 16px solid #0cceff;
+ right: -16px;
+ z-index: 1;
+ }
+
+/* LEFT ARROW */
+
+ .arrowLeft:before, .arrowLeft:after {
+ border-top: 25px solid transparent;
+ border-bottom: 25px solid transparent;
+
+top:-1px
+ }
+ .arrowLeft:after {
+ border-right: 16px solid #C7E0E5;
+ left: -15px;
+ z-index: 2;
+ }
+ .arrowLeft:before {
+ border-right: 16px solid #0cceff;
+ left: -16px;
+ z-index: 1;
+ }
